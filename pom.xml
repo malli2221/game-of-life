@@ -494,13 +494,14 @@
                 </plugins>
             </reporting>
         </profile>
-        <distributionManagement>
+         
+    </profiles>
+     <distributionManagement>
     <repository>
         <id>malli</id>
         <name>malli</name>
         <url>http://localhost:8081/repository/malli/</url>
         </repository>
-    </distributionManagement>    
-    </profiles>
+    </distributionManagement>  
     
 </project>
